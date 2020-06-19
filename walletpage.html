@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HNG Wallet</title> 
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="wallet.homepage.css">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                 <a href="https://hotels.ng//"><img src="images/hng-logo.jpeg" class="logo" alt="hng logo"></a>
+                 <h1>HNG Wallet</h1>       
+            </div>
+           
+           
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="https://hotels.ng/about">About</a></li>
+                    <li><a href="https://hng.tech/">Services</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <div class="space" style="height: 7rem;"></div>
+
+
+        <div class="bg-cover">
+            <p style="text-align: left; color:white; padding:2rem; margin-left:13rem;  padding-left:3rem; font-size:60px">Airtime Top Up</p>
+            
+        </div>
+
+        <form>
+            <div class="form-container">
+                <h3 style="font-weight: bold; margin-left:3rem;">Send to</h3>
+
+                <div class="form-info" style="display:flex; flex-direction: column; justify-content:center; padding-left:5rem; padding-right:5rem;">
+                    <div class="form-info__Ist-part" style="display:flex; justify-content: space-between;">
+                        <div class="form-group form-info-country" style="width:47%">
+                            <label for="inputCountry">country</label>
+                            <select class="form-control" id="inputCountry" style=" height:66px;">
+                                <option>Select Country</option>
+                                <option>Ghana</option>
+                                <option>Nigeria</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="width:47%; margin-left:1rem">
+                            <label for="inputMobileNetwork">mobile network</label>
+                            <select class="form-control" id="inputMobileNetwork" style="height:66px;">
+                                <option>Select Network</option>
+                                <option>MTN</option>
+                                <option>Airtel</option>
+                                <option>Glo</option>
+                                <option>Etisalat</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-info-2" style="display:flex; justify-content: space-between; background-color: white; border-radius: 3px; padding:2rem">
+                            <div class="form-group" style="width:47%">
+                                <label for="inputRecharge">send recharge</label>
+                                <select class="form-control" id="inputRecharge" style=" height:66px;">
+                                    <option>Select Network</option>
+                                    <option>MTN</option>
+                                    <option>Airtel</option>
+                                    <option>Glo</option>
+                                    <option>Etisalat</option>
+                                </select>
+
+                            </div>
+                            <div class="form-group form-info__amount" style="width:47%; margin-left:1rem">
+                                <label for="inputAmount">amount</label>
+                                <input type="text" class="form-control" id="inputAmount" placeholder="amount"
+                                    style="height:66px;">
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="send-btn-container">
+                <button type="submit" class="btn btn-default">SEND</button>
+            </div>
+            
+        </form>
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
