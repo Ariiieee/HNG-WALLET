@@ -67,7 +67,7 @@ header h1 {
 
 
 .nav-links li a {
-    transition: all 0.3sec ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 
@@ -163,7 +163,7 @@ header h1 {
 
 
 .amount {
-    margin-bottpm: 20px;
+    margin-bottom: 20px;
 }
 
 
